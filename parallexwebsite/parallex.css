@@ -1,0 +1,108 @@
+
+/* .img--wrapper-1{
+  background-image: url(/parallexwebsite/img/adobestock.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  font-family:"Roboto", sans-serif;
+}
+
+body{
+  background-color: lightgrey;
+}
+.img--wrapper-1{
+  background-image: url(/parallexwebsite/img/adobestock.webp);
+  min-height: 100vh;
+  position: relative;
+}
+
+.img--wrapper-2{
+  background-image: url(/parallexwebsite/img/r0f.webp);
+  min-height: 500px;
+  position: relative;
+}
+
+.img--wrapper-3{
+  background-image: url(/parallexwebsite/img/TBS.webp);
+  min-height: 500px;
+  position: relative;
+}
+
+.img--wrapper-4{
+  background-image: url(/parallexwebsite/img/_133139585_gettyimages-2147771397.jpg);
+  min-height: 500px;
+  position: relative;
+}
+
+.img--wrapper-5{
+  background-image: url(/parallexwebsite/img/Arsenal\ celebrate\ winning\ the\ FA\ Cup.jpg);
+  min-height: 500px;
+  position: relative;
+}
+
+.img--wrapper-1 div,
+.img--wrapper-2 div,
+.img--wrapper-3 div,
+.img--wrapper-4 div,
+.img--wrapper-5 div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.7em 1em;
+  background-color: rgb(56, 15, 97);
+  color: rgb(244, 204, 204);
+  font-size: 1.5rem;
+  border-radius: 8px;
+}
+
+.img--wrapper-1,
+.img--wrapper-2,
+.img--wrapper-3,
+.img--wrapper-4,
+.img--wrapper-5{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.first--sec div,
+.second--sec div,
+.third--sec div,
+.fourth--sec div,
+.fifth--sec div{
+  text-align: center;
+  padding: 1em 1.5em;
+  background-color: rgb(56, 15, 97);
+  margin: 0.6em 0;
+}
+
+.first--sec div h1,
+.second--sec div h1,
+.third--sec div h1,
+.fourth--sec div h1,
+.fifth--sec div h1{
+  font-size: 2rem;
+  color: rgb(244, 204, 204);
+  line-height: 1.8;
+}
+
+.first--sec div p,
+.second--sec div p,
+.third--sec div p,
+.fourth--sec div p,
+.fifth--sec div p{
+  color: rgb(255, 253, 228);
+  font-size: 1rem;
+  margin-top: 0.6em;
+}
+
